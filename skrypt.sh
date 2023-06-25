@@ -23,6 +23,8 @@ elif [ $1 == "--logs30" ]; then
         echo "Utworzono plik $filename"
         x=$((x+1))
         done
+elif [ $1 == "--help" ]; then
+	echo "Podaj opcję --date, --logs, --logs30 albo --help"
 
 else
 	echo "podaj wlasciwy argument"
